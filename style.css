@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(57, 216, 84);
+    position: absolute;
+    left: 40%;
+}
+
+form{
+    background-color: white;
+    height: 700px;
+    width: 400px; 
+    padding: 10px;
+    box-shadow: 0px 0px 5px 1px green;
+}
+
+.name{
+    width: 390px;
+    height: 25px;
+}
+
+.email{
+    width: 390px;
+    height: 25px;
+}
+
+.age{
+    width: 390px;
+    height: 25px;
+}
+
+.option{
+    width: 390px;
+    height: 30px;
+    background-color: white;
+}
+
+.submit{
+    width: 396px;
+    height: 30px;
+    background-color: green;
+    font-size: large;
+}

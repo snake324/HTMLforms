@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>GeeksforGeeks Survey Form</h1>
     <form>
         <label for="Name">Name</label><br>
-        <input type="text" id="Name" name="Name" placeholder="Enter your Name"><br>
+        <input type="text" id="Name" name="Name" placeholder="Enter your Name" class="name"><br>
         <label for="email">Email</label><br>
-        <input type="email" id="email" name="email" placeholder="Enter your Email"><br>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" class="email"><br>
         <label for="age">Age</label><br>
-        <input type="text" id="age" name="age" placeholder="Enter your Age"><br>
+        <input type="text" id="age" name="age" placeholder="Enter your Age" class="age"><br>
         <p>
             Wich option best describe you?<br>
-            <select name="describe">
+            <select name="describe" class="option">
               <option>Student</option>
               <option>Worker</option>
             </select>
@@ -42,7 +43,8 @@
             <input type="checkbox" name="Spring">Spring<br>
         </p>
         <p><label>Any comments or suggestions<br></p>
-        <textarea rows="2" cols="50"></textarea>      
+        <textarea rows="2" cols="53"></textarea>
+        <input type="submit" value="Submit" class="submit">
     </form>
 </body>
 </html>
